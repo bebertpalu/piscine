@@ -1,4 +1,4 @@
-@import "reset.css";
+ @import "reset.css";
 @import "skeleton.css";
 @import "font-awesome.css";
 @import "superfish.css";
@@ -41,6 +41,17 @@ body {
 	overflow:hidden;
 	padding:0
 }
+
+.logo_prestige {
+    width:110%;
+    margin: 45px -19px;
+}
+
+.menu_block{
+    font-size: 10%
+
+}
+
 
 strong {
 	font-weight: 700;

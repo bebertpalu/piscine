@@ -6,8 +6,7 @@
 	var allImages = {
 		page1 : ['<a href="#"><img width=300 height=250 src="images/photo-1.png" alt="img01"/></a>','<a href="#"><img width=300 height=250 src="images/photo-2.png" alt="img02"/></a>','<a href="#"><img width=300 height=250 src="images/photo-3.png" alt="img03"/></a>','<a href="#"><img width=300 height=250 src="images/photo-4.png" alt="img04"/></a>','<a href="#"><img width=300 height=250 src="images/photo-5.png" alt="img05"/></a>','<a href="#"><img width=300 height=250 src="images/photo-6.png" alt="img06"/></a>'],
 		page2 : ['<a href="#"><img width=300 height=250 src="images/photo-7.png" alt="img07"/></a>','<a href="#"><img width=300 height=250 src="images/photo-8.png" alt="img08"/></a>','<a href="#"><img width=300 height=250 src="images/photo-9.png" alt="img09"/></a>','<a href="#"><img width=300 height=250 src="images/photo-10.png" alt="img10"/></a>','<a href="#"><img width=300 height=250 src="images/photo-11.png" alt="img11"/></a>','<a href="#"><img width=300 height=250 src="images/photo-12.png" alt="img12"/></a>'],
-		page3 : ['<a href="#"><img width=300 height=250 src="images/photo-13.png" alt="img013"/></a>','<a href="#"><img width=300 height=250 src="images/photo-14.png" alt="img14"/></a>','<a href="#"><img width=300 height=250 src="images/photo-15.png" alt="img15"/></a>','<a href="#"><img width=300 height=250 src="images/photo-16.png" alt="img16"/></a>','<a href="#"><img width=300 height=250 src="images/photo-17.png" alt="img17"/></a>','<a href="#"><img width=300 height=250 src="images/photo-18.png" alt="img18"/></a>'],
-		page4 : ['<a href="#"><img width=300 height=250 src="images/photo-19.png" alt="img19"/></a>','<a href="#"><img width=300 height=250 src="images/photo-20.png" alt="img20"/></a>']
+		page3 : ['<a href="#"><img width=300 height=250 src="images/photo-13.png" alt="img013"/></a>','<a href="#"><img width=300 height=250 src="images/photo-14.png" alt="img14"/></a>','<a href="#"><img width=300 height=250 src="images/photo-15.png" alt="img15"/></a>','<a href="#"><img width=300 height=250 src="images/photo-16.png" alt="img16"/></a>','<a href="#"><img width=300 height=250 src="images/photo-2.png" alt="img02"/></a>','<a href="#"><img width=300 height=250 src="images/photo-1.png" alt="img01"/></a>']
 	};
 
 	// http://coveroverflow.com/a/11381730/989439
@@ -74,7 +73,6 @@
 				switch( set ) {
 					case 1 : newImages = allImages.page2; break;
 					case 2 : newImages = allImages.page3; break;
-					case 3 : newImages = allImages.page4; break;
 					default : newImages = allImages.page1; break;
 				};
 
